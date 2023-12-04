@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <title>Simulated Business</title> -->
+</head>
+
+
+<body>
+
+<class="formContainer">
+    <h3>Send Us a Message</h3>
+
+    <form id="contactus">
+
+     <div class="form-sub">
+         <!-- <label for="Name">Name</label><span class="required">*<th style="padding-right: 15px;"></th></span> -->
+         <label>Name <span class="required">*</span></label>
+         <input type="text" id="Name" name="Name" size="35" placeholder="Full Name"required>
+        </div>
+
+
+     <div class="form-sub">
+         <label for="email">Email</label><th style="padding-right: 15px;"></th>
+         <input type="text" id="email" name="email" size="35" placeholder="Email Address">
+     </div>
+
+     <div class="form-sub">
+         <label for="phonenumber">Phone Number</label><th style="padding-right: 15px;"></th>
+         <input type="tel" id="phone" name="phone" size="35" placeholder="Phone Number">
+     </div>
+
+     <div class="form-sub">
+         <label for="messagetype">Message Type</label>
+         <select id="message" name="message">
+             <!--Dropdown menu options-->
+             <option>Inquiry</option>
+             <option>Request</option>
+             <option>Other</option>
+         </select>
+     </div>
+
+         <input type="radio" id="Contact" name="Contact">
+         <label for="Contact">Call Me</label>
+         <input type="radio" id="Contact" name="Contact">
+         <label for="Contact">Email Me</label>
+
+     <div class="form-sub">
+        <label>Message <span class="required">*</span></label>
+        <textarea id="message" name="message" rows="10" cols="50" required></textarea>
+     </div>
+
+     </form>
+    </body>
